@@ -13,3 +13,6 @@ goweb:
         imagePullSecrets: mydockerhubregistrykey
     type: LoadBalancer
     containerPort: 8080
+
+ingress:
+  enabled: false
